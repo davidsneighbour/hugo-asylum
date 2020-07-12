@@ -18,3 +18,8 @@ Work in progress... check issue tracker to see what's missing.
 - `howto/$howto-name` - branches that explain one single thing
 - `content` - branch for collecting content samples to cherry-pick between branches
 
+## FAQ
+
+### Why not use GIT LFS for the binaries?
+
+Because the free tier has only available space of 1GB and I am using too many different binaries.
