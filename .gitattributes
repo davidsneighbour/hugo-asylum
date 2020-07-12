@@ -1,1 +1,1 @@
-bin/hugo/* filter=lfs diff=lfs merge=lfs -text
+bin/hugo/hugo* filter=lfs diff=lfs merge=lfs -text
