@@ -1,3 +1,6 @@
+# binaries
+bin/hugo/hugo*
+
 # Created by https://www.toptal.com/developers/gitignore/api/hugo,phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo,phpstorm
 

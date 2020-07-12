@@ -18,6 +18,21 @@ Work in progress... check issue tracker to see what's missing.
 - `howto/$howto-name` - branches that explain one single thing
 - `content` - branch for collecting content samples to cherry-pick between branches
 
+### Binaries
+
+**Configuration**: Check out the file `dotfiles/.releases.dist`. In it you find version numbers of hugo that will be
+downloaded. If you wish to download more or less or different versions, then copy the file to `dotfiles/.releases` and
+edit to your needs.
+ 
+**Download**: Run `./bin/gethugo.sh`, answer which versions (standard, extended or both) you want to download and lean 
+back. It will take a while if you have many versions to download. The downloaded binaries will reside in the `bin/hugo`
+directory.
+
+**ToDo**:
+
+- create a script that links the preferred hugo binary to hugo
+- create a script that runs through a list of versions and executes commands for each of these version.
+
 ## FAQ
 
 ### Why not use GIT LFS for the binaries?
