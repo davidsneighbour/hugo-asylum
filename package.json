@@ -1,0 +1,23 @@
+{
+  "name": "dnb-hugo-asylum",
+  "version": "1.0.0",
+  "description": "Test cases, issue recreation and bug hunting for Hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-hugo/asylum.git"
+  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/asylum/issues"
+  },
+  "homepage": "https://github.com/dnb-hugo/asylum#readme",
+  "dependencies": {
+    "nightwatch": "^1.4.1",
+    "standard-version": "^9.0.0"
+  }
+}
