@@ -4,7 +4,9 @@
   "description": "Test cases, issue recreation and bug hunting for Hugo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version --release-as patch -a && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,15 @@
   },
   "homepage": "https://github.com/dnb-hugo/asylum#readme",
   "dependencies": {
-    "nightwatch": "1.4.1",
-    "standard-version": "9.0.0"
+    "standard-version": "9.0.0",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.6",
+    "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
+    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
+    "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
+    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
+    "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb",
+    "@dnb-hugo/textlint-config-dnb": "github:dnb-hugo/textlint-config-dnb"
   }
 }
