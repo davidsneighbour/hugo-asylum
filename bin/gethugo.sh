@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASES="dotfiles/.releases"
+RELEASES="etc/releases"
 URLSTANDARD="https://github.com/gohugoio/hugo/releases/download/v%s/hugo_%s_Linux-64bit.tar.gz"
 URLEXTENDED="https://github.com/gohugoio/hugo/releases/download/v%s/hugo_extended_%s_Linux-64bit.tar.gz"
 

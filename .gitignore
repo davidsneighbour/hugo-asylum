@@ -1,8 +1,7 @@
 /package-lock.json
-hugo.log
-bin/hugo/hugo*
-dotfiles/.releases
-
+/hugo.log
+/bin/hugo/hugo*
+/etc/.releases
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,node,hugo,sonar,sonarqube,sublimetext,phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,node,hugo,sonar,sonarqube,sublimetext,phpstorm

@@ -1,0 +1,11 @@
+{{ $testcasename := "" }}
+{{ $testcaseordinal := printf "%s%s" "testcase-" .Ordinal }}
+{{ with .Get 0 }}
+    {{ $testcasename = . }}
+    {{ $hastestcasename = true }}
+{{ else }}
+    {{ $testcasename = $testcaseordinal }}
+{{ end }}
+<section class="{{ $testcaseordinal }}{{ with $hastestcasename }} {{ $testcasename }}{{ end }}" id="{{ $testcasename }}">
+    {{ .Inner }}
+</section>
