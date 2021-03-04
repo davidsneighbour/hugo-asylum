@@ -11,12 +11,8 @@ fi
 hugo mod get -u ./...
 hugo mod tidy
 
-git add go.mod
-git add go.sum
-
-#rm -rf public
-#hugo
-#git add public/ -f
+git add go.mod -f
+git add go.sum -f
 
 if test -f "$SCRIPTPATH"/replacements; then
   while read -ra __; do
