@@ -1,4 +1,5 @@
 {{ $testcasename := "" }}
+{{ $hastestcasename := "" }}
 {{ $testcaseordinal := printf "%s%s" "testcase-" .Ordinal }}
 {{ with .Get 0 }}
     {{ $testcasename = . }}
