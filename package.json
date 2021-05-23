@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-asylum",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
   "main": "index.js",
   "scripts": {
