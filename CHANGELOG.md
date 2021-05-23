@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.18](https://github.com/dnb-hugo/asylum/compare/v1.0.17...v1.0.18) (2021-05-23)
+
+
+### Chore
+
+* **release:** re-add push to repo on versioning ([7f9ba6b](https://github.com/dnb-hugo/asylum/commit/7f9ba6b446658dcd99cb5679a47eb633aea81e4d))
+
 ### [1.0.17](https://github.com/dnb-hugo/asylum/compare/v1.0.0...v1.0.17) (2021-05-23)
 
 
