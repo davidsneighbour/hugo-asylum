@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-asylum",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
   "main": "index.js",
   "scripts": {
@@ -19,14 +19,12 @@
   },
   "homepage": "https://github.com/dnb-hugo/asylum#readme",
   "dependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint-dnb",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
-    "standard-version": "9.3.0"
+    "@dnb-hugo/browserslist-config": "*",
+    "@dnb-hugo/commitlint-config": "*",
+    "@dnb-hugo/eslint-config": "*",
+    "@dnb-hugo/remark-config": "*",
+    "@dnb-hugo/standard-version-config": "*",
+    "@dnb-hugo/stylelint-config": "*",
+    "@dnb-hugo/textlint-config": "*"
   }
 }
