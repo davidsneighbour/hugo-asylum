@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.19](https://github.com/dnb-hugo/asylum/compare/v1.0.18...v1.0.19) (2021-06-23)
+
+
+### Chore
+
+* **deps:** update dependencies ([370ac86](https://github.com/dnb-hugo/asylum/commit/370ac86d21dc9a04256113463dafe9e6682c7aa5))
+* update dependabot configuration ([c3e8d65](https://github.com/dnb-hugo/asylum/commit/c3e8d6575bfdd21f533dd513d27db41b57a06dc2))
+
 ### [1.0.18](https://github.com/dnb-hugo/asylum/compare/v1.0.17...v1.0.18) (2021-05-23)
 
 
