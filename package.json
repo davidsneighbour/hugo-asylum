@@ -7,13 +7,13 @@
     "url": "https://github.com/dnb-hugo/asylum/issues"
   },
   "dependencies": {
-    "@dnb-hugo/browserslist-config": "3.0.13",
-    "@dnb-hugo/commitlint-config": "3.0.13",
-    "@dnb-hugo/eslint-config": "3.0.13",
-    "@dnb-hugo/remark-config": "3.0.13",
-    "@dnb-hugo/standard-version-config": "3.0.13",
-    "@dnb-hugo/stylelint-config": "3.0.13",
-    "@dnb-hugo/textlint-config": "3.0.13"
+    "@dnb-hugo/browserslist-config": "3.0.17",
+    "@dnb-hugo/commitlint-config": "3.0.17",
+    "@dnb-hugo/eslint-config": "3.0.17",
+    "@dnb-hugo/remark-config": "3.0.17",
+    "@dnb-hugo/standard-version-config": "3.0.17",
+    "@dnb-hugo/stylelint-config": "3.0.17",
+    "@dnb-hugo/textlint-config": "3.0.17"
   },
   "devDependencies": {
     "fixpack": "^4.0.0"
