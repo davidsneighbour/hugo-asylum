@@ -1,7 +1,7 @@
 {
   "name": "dnb-hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/asylum/issues"
