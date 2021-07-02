@@ -13,7 +13,7 @@
     "url": "git+https://github.com/dnb-hugo/asylum.git"
   },
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dnb-hugo/asylum/issues"
   },
