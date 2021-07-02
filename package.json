@@ -13,9 +13,8 @@
     "@dnb-hugo/remark-config": "3.0.17",
     "@dnb-hugo/standard-version-config": "3.0.17",
     "@dnb-hugo/stylelint-config": "3.0.17",
-    "@dnb-hugo/textlint-config": "3.0.17"
-  },
-  "devDependencies": {
+    "@dnb-hugo/textlint-config": "3.0.17",
+    "cypress": "^7.6.0",
     "fixpack": "^4.0.0"
   },
   "homepage": "https://github.com/dnb-hugo/asylum#readme",
