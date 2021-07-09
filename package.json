@@ -7,7 +7,7 @@
     "url": "https://github.com/dnb-hugo/asylum/issues"
   },
   "dependencies": {
-    "@dnb-hugo/browserslist-config": "3.0.17",
+    "@dnb-hugo/browserslist-config": "3.0.21",
     "@dnb-hugo/commitlint-config": "3.0.17",
     "@dnb-hugo/eslint-config": "3.0.17",
     "@dnb-hugo/remark-config": "3.0.17",
