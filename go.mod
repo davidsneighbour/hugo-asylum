@@ -1,3 +1,3 @@
-module github.com/dnb-hugo/asylum
+module github.com/dnb-org/asylum
 
 go 1.16
