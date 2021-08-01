@@ -10,7 +10,7 @@
     "extends @dnb-org/browserslist-config"
   ],
   "dependencies": {
-    "@dnb-org/browserslist-config": "3.1.0",
+    "@dnb-org/browserslist-config": "3.2.0",
     "@dnb-org/commitlint-config": "3.1.0",
     "@dnb-org/eslint-config": "3.1.0",
     "@dnb-org/remark-config": "3.2.0",
