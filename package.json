@@ -10,15 +10,8 @@
     "extends @dnb-org/browserslist-config"
   ],
   "dependencies": {
-    "@dnb-org/browserslist-config": "3.2.18",
-    "@dnb-org/commitlint-config": "3.2.8",
-    "@dnb-org/eslint-config": "3.2.18",
-    "@dnb-org/remark-config": "3.2.18",
-    "@dnb-org/standard-version-config": "3.2.8",
-    "@dnb-org/stylelint-config": "3.2.8",
-    "@dnb-org/textlint-config": "3.2.8",
-    "@dnb-org/tools": "3.2.10",
-    "cypress": "^8.0.0",
+    "@dnb-org/all": "3.2.18",
+    "cypress": "^8.3.1",
     "fixpack": "^4.0.0"
   },
   "homepage": "https://github.com/dnb-org/asylum#readme",
