@@ -1,26 +1,23 @@
 {
-  "name": "dnb-org-asylum",
+  "name": "dnb-org/asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
   "version": "1.0.22",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "bugs": {
-    "url": "https://github.com/dnb-org/asylum/issues"
-  },
   "browserslist": [
     "extends @dnb-org/browserslist-config"
   ],
+  "bugs": {
+    "url": "https://github.com/dnb-org/asylum/issues"
+  },
   "dependencies": {
-    "@dnb-org/all": "3.2.18",
-    "cypress": "^8.3.1",
-    "fixpack": "^4.0.0"
+    "@dnb-org/all": "3.2.19",
+    "cypress": "8.3.1",
+    "fixpack": "4.0.0"
   },
   "homepage": "https://github.com/dnb-org/asylum#readme",
   "license": "MIT",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dnb-org/asylum.git"
-  },
+  "repository": "dnb-org/asylum.git",
   "scripts": {
     "build": "run-s build:critical && build:hugo",
     "build:critical": "./bin/build-critical-css.sh",
@@ -44,9 +41,9 @@
     "release": "standard-version --release-as patch -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "release:major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "release:minor": "standard-version --release-as minor -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "update": "npm-check-updates -u && npm install",
     "test": "run-p test:server test:cypress",
+    "test:cypress": "cypress open",
     "test:server": "hugo server --port=8888 --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
-    "test:cypress": "cypress open"
+    "update": "npm-check-updates -u && npm install"
   }
 }
