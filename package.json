@@ -10,7 +10,7 @@
     "url": "https://github.com/dnb-org/asylum/issues"
   },
   "dependencies": {
-    "@dnb-org/all": "3.2.24",
+    "@dnb-org/all": "3.2.25",
     "cypress": "8.4.0",
     "fixpack": "4.0.0"
   },
