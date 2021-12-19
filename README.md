@@ -51,8 +51,8 @@ Because the free tier has only available space of 1GB and I am using too many di
 | [blocks](https://github.com/dnb-org/blocks) | Blocks are reusable page elements like headers, footers, content display etc.|
 | [components](https://github.com/dnb-org/components) | Components are preconfigured features like automatic search index creation, sitemap and robots.txt creation, etc. |
 | [configurations](https://github.com/dnb-org/configurations) | A collection of configuration packages used in dnb-org |
-| [debug](https://github.com/dnb-org/debug) | Debugging for your Hugo layout files. |
-| [hooks](https://github.com/dnb-org/hooks) | Template hooks for Hugo themes |
+| [debug](https://github.com/dnb-org/dnb-hugo-debug) | Debugging for your Hugo layout files. |
+| [hooks](https://github.com/dnb-org/dnb-hugo-hooks) | Template hooks for Hugo themes |
 | [libraries](https://github.com/dnb-org/libraries) | Libraries are a collection of often used external packages, conveniently configured as modules for Hugo. |
 | [shortcodes](https://github.com/dnb-org/shortcodes) | Shortcodes are content particles that helpfully solve repeated tasks, like presentation, galleries and so on. |
 | [testcontent](https://github.com/dnb-org/testcontent) | Testcontent is a collection of testing content. |
