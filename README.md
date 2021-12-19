@@ -1,3 +1,6 @@
+![DNB-Hugo/ASYLUM](.github/github-card-asylum-dark.png#gh-dark-mode-only)
+![DNB-Hugo/ASYLUM](.github/github-card-asylum-light.png#gh-light-mode-only)
+
 # DNB-Hugo/ASYLUM
 
 Test cases, issue recreation, bug hunting
