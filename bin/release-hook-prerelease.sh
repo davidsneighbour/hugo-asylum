@@ -1,4 +1,16 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+REQUIRED_TOOLS=(
+  git
+  hugo
+)
+
+for TOOL in "${REQUIRED_TOOLS[@]}"; do
+  if ! command -v "${TOOL}" >/dev/null; then
+    echo "${TOOL} is required... "
+    exit 1
+  fi
+done
 
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
@@ -11,8 +23,8 @@ fi
 hugo mod get -u ./...
 hugo mod tidy
 
-git add go.mod -f
-git add go.sum -f
+git add go.mod
+git add go.sum
 
 if test -f "$SCRIPTPATH"/replacements; then
   while read -ra __; do
