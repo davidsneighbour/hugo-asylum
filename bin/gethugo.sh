@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO don't re-download already loaded binaries
+
 RELEASES="etc/releases"
 URLSTANDARD="https://github.com/gohugoio/hugo/releases/download/v%s/hugo_%s_Linux-64bit.tar.gz"
 URLEXTENDED="https://github.com/gohugoio/hugo/releases/download/v%s/hugo_extended_%s_Linux-64bit.tar.gz"
@@ -32,7 +34,7 @@ done
 # deciding which release list to use
 if [[ ! -f $RELEASES ]]
 then
-  DOWNLOADLIST="dotfiles/.releases.dist"
+  DOWNLOADLIST="etc/.releases.dist"
 else
   DOWNLOADLIST=$RELEASES
 fi
@@ -81,4 +83,4 @@ while IFS= read -r line; do
     echo "done."
   fi
 
-done < ../$DOWNLOADLIST
+done < $DOWNLOADLIST
