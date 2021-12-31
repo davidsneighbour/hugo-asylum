@@ -24,7 +24,7 @@
     "@dnb-org/stylelint-config": "^3.4.3",
     "@dnb-org/textlint-config": "^3.4.5",
     "@dnb-org/tools": "^3.4.3",
-    "@dnb-org/webpack-config": "^3.4.5",
+    "@dnb-org/webpack-config": "^3.4.8",
     "cypress": "9.1.1"
   },
   "homepage": "https://github.com/dnb-org/asylum#readme",
