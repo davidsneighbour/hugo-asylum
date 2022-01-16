@@ -1,11 +1,13 @@
-![DNB-Hugo/ASYLUM](.github/github-card-asylum-dark.png#gh-dark-mode-only)
-![DNB-Hugo/ASYLUM](.github/github-card-asylum-light.png#gh-light-mode-only)
+<!--- CARD BEGIN --->
 
-# DNB-Hugo/ASYLUM
+![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
 
-Test cases, issue recreation, bug hunting
+<!--- CARD END --->
 
-Work in progress... Check issue tracker to see what's missing or request others.
+# DNB GoHugo Component / Asylum
+
+Test cases, issue recreation, bug hunting... Work in progress... Check the issue tracker to see what's missing or request others.
 
 ## Usage
 
