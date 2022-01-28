@@ -63,7 +63,7 @@
     "server": "bin/hugo-dev-server.sh"
   },
   "dependencies": {
-    "jshint": "^2.13.3",
+    "jshint": "^2.13.4",
     "trim": ">=1.0.1"
   }
 }
