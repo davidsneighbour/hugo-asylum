@@ -10,7 +10,7 @@
     "url": "https://github.com/dnb-org/asylum/issues"
   },
   "devDependencies": {
-    "@dnb-org/babel-config": "^3.4.9",
+    "@dnb-org/babel-config": "^3.5.5",
     "@dnb-org/bootstrap-config": "^3.4.9",
     "@dnb-org/browserslist-config": "^3.4.9",
     "@dnb-org/commitlint-config": "^3.4.10",
