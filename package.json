@@ -10,22 +10,22 @@
     "url": "https://github.com/dnb-org/asylum/issues"
   },
   "devDependencies": {
-    "@dnb-org/babel-config": "^3.4.9",
-    "@dnb-org/bootstrap-config": "^3.4.9",
-    "@dnb-org/browserslist-config": "^3.4.9",
-    "@dnb-org/commitlint-config": "^3.4.10",
-    "@dnb-org/cssnano-config": "^3.4.10",
-    "@dnb-org/cypress-config": "^3.4.11",
-    "@dnb-org/eslint-config": "^3.4.24",
-    "@dnb-org/postcss-config": "^3.4.10",
-    "@dnb-org/prettier-config": "^3.4.11",
-    "@dnb-org/remark-config": "^3.4.9",
-    "@dnb-org/standard-version-config": "^3.4.8",
-    "@dnb-org/stylelint-config": "^3.4.9",
-    "@dnb-org/textlint-config": "^3.4.10",
-    "@dnb-org/tools": "^3.4.10",
-    "@dnb-org/webpack-config": "^3.4.10",
-    "cypress": "9.2.1"
+    "@dnb-org/babel-config": "^3.5.6",
+    "@dnb-org/bootstrap-config": "^3.5.6",
+    "@dnb-org/browserslist-config": "^3.5.6",
+    "@dnb-org/commitlint-config": "^3.5.6",
+    "@dnb-org/cssnano-config": "^3.5.6",
+    "@dnb-org/cypress-config": "^3.5.6",
+    "@dnb-org/eslint-config": "^3.5.7",
+    "@dnb-org/postcss-config": "^3.5.6",
+    "@dnb-org/prettier-config": "^3.5.7",
+    "@dnb-org/remark-config": "^3.5.7",
+    "@dnb-org/standard-version-config": "^3.5.6",
+    "@dnb-org/stylelint-config": "^3.5.7",
+    "@dnb-org/textlint-config": "^3.5.7",
+    "@dnb-org/tools": "^3.5.6",
+    "@dnb-org/webpack-config": "^3.5.7",
+    "cypress": "9.4.1"
   },
   "homepage": "https://github.com/dnb-org/asylum#readme",
   "license": "MIT",
@@ -63,7 +63,7 @@
     "server": "bin/hugo-dev-server.sh"
   },
   "dependencies": {
-    "jshint": "^2.13.3",
+    "jshint": "^2.13.4",
     "trim": ">=1.0.1"
   }
 }
