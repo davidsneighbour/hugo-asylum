@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.24](https://github.com/dnb-org/asylum/compare/1.0.23...1.0.24) (2022-03-09)
+
+
+### Chore
+
+* **config:** add trim package to appease dependabot ([a922275](https://github.com/dnb-org/asylum/commit/a922275f44744dd6cf30a101f63bc4c81e9f1132))
+* **config:** add vscode configuration ([b1e632b](https://github.com/dnb-org/asylum/commit/b1e632b172e653b3f6014eebb76386eae8d9299a))
+* **config:** install and setup pre-commit ([7a5e775](https://github.com/dnb-org/asylum/commit/7a5e775c9725f885711164a2bdf6d16379603b87))
+* **config:** proper ignoring hugo binaries ([37b1123](https://github.com/dnb-org/asylum/commit/37b1123c45d3eaba154044dfe1394319df9361fc))
+* **config:** proper textlint setup ([0ec071e](https://github.com/dnb-org/asylum/commit/0ec071e77f2456935ef60472b7b93d5d08983f4c))
+* **config:** remove trunk.io setup (too much debugging errors) ([b3b98e1](https://github.com/dnb-org/asylum/commit/b3b98e1a8446d306aeb639042af22769f12166e2))
+* **config:** setup textlint and fix docs ([698b053](https://github.com/dnb-org/asylum/commit/698b0533b064439e11d87beb0d96432befbde76c))
+* **config:** setup trunk.io ([aa5345d](https://github.com/dnb-org/asylum/commit/aa5345dea9e78f307488cbaec0aaf5b3bd795081))
+* **config:** update header images ([a708963](https://github.com/dnb-org/asylum/commit/a708963adeb4a9526c467e522624bda9081abbbb))
+* **deps:** update dependencies ([33f9c4d](https://github.com/dnb-org/asylum/commit/33f9c4d3f40d911d36d9d8a74b26a48cb066a101))
+* **deps:** update dependencies ([4393a3e](https://github.com/dnb-org/asylum/commit/4393a3ed193994808bb99d7c9cb8f9d08b18245d))
+* **deps:** update dependencies ([ed3f393](https://github.com/dnb-org/asylum/commit/ed3f3934456e08248b875dbb61c133f689c8ade6))
+* **deps:** update dependencies ([4163db6](https://github.com/dnb-org/asylum/commit/4163db68c5e9c8a3fb67dfae482d78fb412fabc1))
+* **deps:** update dependency setup and package.json ([f8bf505](https://github.com/dnb-org/asylum/commit/f8bf50538875c6da22a7d6e9014d8c72a957adcb))
+* fix pre-commit suggestions ([de4f803](https://github.com/dnb-org/asylum/commit/de4f80373e9cd926e3f1d6d34871326f534c3411))
+* update go version ([f663b82](https://github.com/dnb-org/asylum/commit/f663b8226521e3f16fabe5f4c2e706ec75148d1a))
+
+
+### Documentation
+
+* add header cards ([cf47619](https://github.com/dnb-org/asylum/commit/cf47619f3fcd74a6ccf45897077857c27c817b46))
+* add light/dark repo image ([23da6c4](https://github.com/dnb-org/asylum/commit/23da6c428c804598bdd30075c1dae96025245539))
+* update LICENSE.md ([97ea12e](https://github.com/dnb-org/asylum/commit/97ea12e068a6eb3146c12f01b00b46cad676d941))
+* update README.md ([6ecfcae](https://github.com/dnb-org/asylum/commit/6ecfcae7b8b345d2c724df265569a4c83891b528))
+
+
+### Build System
+
+* **dev:** add server scripts ([e85f555](https://github.com/dnb-org/asylum/commit/e85f55550e68f1daa56d2ba83d9b5ec02f18a300))
+* fix get-hugo script ([960b378](https://github.com/dnb-org/asylum/commit/960b378a1680636f2e2e267502d930fff72f1d45))
+* update release hook scripts ([70feed7](https://github.com/dnb-org/asylum/commit/70feed700fd200687719b0d1502cce22249b20d1))
+* update release scripts ([15b05a3](https://github.com/dnb-org/asylum/commit/15b05a34ffe2b48a6b7007329d19b979f8b59b38))
+
 ### [1.0.23](https://github.com/dnb-hugo/asylum/compare/1.0.22...1.0.23) (2021-10-29)
 
 
