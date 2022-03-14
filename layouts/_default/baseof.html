@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{- site.LanguageCode -}}">
+	<head>
+    {{- partial "head.html" . -}}
+	</head>
+	<body class="type--{{ .Type -}}
+              {{- if .IsPage }} page--single{{ else }} page--list{{ end -}}"
+        id="page-{{- .File.UniqueID -}}">
+		<main>
+      {{- block "main" . -}}{{- end -}}
+    </main>
+	</body>
+</html>
