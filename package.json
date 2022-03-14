@@ -10,22 +10,14 @@
     "url": "https://github.com/dnb-org/asylum/issues"
   },
   "devDependencies": {
-    "@dnb-org/babel-config": "^3.5.8",
     "@dnb-org/bootstrap-config": "^3.5.8",
     "@dnb-org/browserslist-config": "^3.5.9",
-    "@dnb-org/commitlint-config": "^3.5.8",
     "@dnb-org/cssnano-config": "^3.5.8",
     "@dnb-org/cypress-config": "^3.5.8",
     "@dnb-org/eslint-config": "^3.5.10",
     "@dnb-org/postcss-config": "^3.5.8",
-    "@dnb-org/prettier-config": "^3.5.9",
-    "@dnb-org/remark-config": "^3.5.10",
     "@dnb-org/standard-version-config": "^3.5.8",
-    "@dnb-org/stylelint-config": "^3.5.13",
-    "@dnb-org/textlint-config": "^3.5.10",
-    "@dnb-org/tools": "^3.5.8",
-    "@dnb-org/webpack-config": "^3.5.9",
-    "cypress": "9.5.1"
+    "@dnb-org/tools": "^3.5.8"
   },
   "homepage": "https://github.com/dnb-org/asylum#readme",
   "license": "MIT",
@@ -61,9 +53,5 @@
     "test:server": "hugo server --port=8888 --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
     "update": "npm-check-updates -u && npm install",
     "server": "bin/hugo-dev-server.sh"
-  },
-  "dependencies": {
-    "jshint": "^2.13.4",
-    "trim": ">=1.0.1"
   }
 }
