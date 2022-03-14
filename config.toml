@@ -1,3 +1,8 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+baseURL = "http://your-domain.com"
+summaryLength = 70
+
+[module]
+[[module.imports]]
+path = "github.com/dnb-org/dnb-hugo-head"
