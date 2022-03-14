@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2022.0.2](https://github.com/dnb-org/asylum/compare/1.0.24...2022.0.2) (2022-03-14)
+
+
+### Theme
+
+* add initial simple theme ([1f55a7c](https://github.com/dnb-org/asylum/commit/1f55a7cb9d668d5e7be772933a03088052fa709d))
+
+
+### Build System
+
+* update build system ([e81f080](https://github.com/dnb-org/asylum/commit/e81f08049d685e81ee1b39cb05f8b54e6768841b))
+
+
+### Chore
+
+* add archetype and stylesheet setup ([bdd3dfa](https://github.com/dnb-org/asylum/commit/bdd3dfafa80814c87ec5f5fcd956e9aa331293f6))
+* add proper path for build data ([592d627](https://github.com/dnb-org/asylum/commit/592d6276a7ce8eeb99072e93e4b798fb312eed76))
+* **config:** proper versioning preparation ([26ce4b2](https://github.com/dnb-org/asylum/commit/26ce4b2cbf738e827441aaa212bfd30f5bcbf2e3))
+* **deps:** remove unused dependencies ([4813b17](https://github.com/dnb-org/asylum/commit/4813b175c531f7c9f2599b9fab7ae9b9b9a72991))
+* **deps:** update dependencies ([41a6ab3](https://github.com/dnb-org/asylum/commit/41a6ab356a53da5bfe1fc3dd488b547a8996cdb3))
+* **deps:** update dependencies ([0c6af98](https://github.com/dnb-org/asylum/commit/0c6af98e99111d245e343e9dacc1849e36f4cefb))
+* **release:** 1.0.25 ([4faf7e8](https://github.com/dnb-org/asylum/commit/4faf7e8fefdf379eee98142ea57a0c20d060c119))
+* **release:** 1.0.26 ([cee47f6](https://github.com/dnb-org/asylum/commit/cee47f6bd2812807a1896cd43881cbf2e667d06b))
+* **release:** 1.0.27 ([33e6a7c](https://github.com/dnb-org/asylum/commit/33e6a7c12761a184e06e43f96a02ab5fb45219c7))
+* **release:** 2022.0.0 ([b4ff964](https://github.com/dnb-org/asylum/commit/b4ff9642819bb02558d984a8a3bb45018d738e0d))
+* **release:** 2022.0.1 ([827340e](https://github.com/dnb-org/asylum/commit/827340e7c694c10390182ff14ad9b7013095d019))
+* update configuration and gitignore ([35f3959](https://github.com/dnb-org/asylum/commit/35f3959b7cb43b252e0cfc6ff1bec56655cf875c))
+
 ### [2022.0.1](https://github.com/dnb-org/asylum/compare/1.0.24...2022.0.1) (2022-03-14)
 
 
