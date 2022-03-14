@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "1.0.27",
+  "version": "2022.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "browserslist": [
     "extends @dnb-org/browserslist-config"
