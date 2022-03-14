@@ -1,7 +1,7 @@
 ---
 title: "Goat Large Nodes"
 date: 2022-03-09T21:30:24+07:00
-draft: true
+
 ---
 
 ```goat

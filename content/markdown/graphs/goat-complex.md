@@ -1,7 +1,7 @@
 ---
-title: "Goat Complicated"
-date: 2022-03-09T21:31:58+07:00
-draft: true
+title: "Goat Complex"
+date: 2022-03-09T21:24:19+07:00
+
 ---
 
 ```goat
@@ -29,4 +29,5 @@ draft: true
   .-.             .---+--------.            /            A || B   *bold*       |        ^
  |   |           |   Not a dot  |      <---+---<--    A dash--is not a line    v        |
   '-'             '---------+--'          /           Nor/is this.            ---
+
 ```

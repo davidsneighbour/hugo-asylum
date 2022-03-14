@@ -1,7 +1,7 @@
 ---
 title: "Goat Graphics"
 date: 2022-03-09T21:23:54+07:00
-draft: true
+
 ---
 
 ```goat

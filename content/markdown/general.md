@@ -1,7 +1,6 @@
 ---
 title: "General"
 date: 2021-07-04T11:45:13+07:00
-url: /markdown/general
 ---
 
 # An h1 header
@@ -71,9 +70,9 @@ Now a nested list:
 - Celery
 - Lentils
 
-2.  Boil some water.
+2. Boil some water.
 
-3.  Dump everything in the pot and follow
+3. Dump everything in the pot and follow
     this algorithm:
 
         find wooden spoon
@@ -242,7 +241,7 @@ Unordered
 - Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
     - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
+    - Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
 - Very easy.
 
@@ -309,7 +308,7 @@ Right aligned columns
 
 [link with title](https://github.com "title text!")
 
-Autoconverted link https://github.com (enable linkify to see)
+Autoconverted link <https://github.com> (enable linkify to see)
 
 ## Images
 

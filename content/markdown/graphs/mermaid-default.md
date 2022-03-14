@@ -1,7 +1,7 @@
 ---
 title: "Mermaid Default"
 date: 2022-03-09T21:22:26+07:00
-draft: true
+
 ---
 
 ```mermaid

@@ -1,7 +1,7 @@
 ---
 title: "Goat Line Ends"
 date: 2022-03-09T21:29:21+07:00
-draft: true
+
 ---
 
 ```goat

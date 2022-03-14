@@ -1,7 +1,7 @@
 ---
 title: "Goat Small Grids"
 date: 2022-03-09T21:30:55+07:00
-draft: true
+
 ---
 
 ```goat

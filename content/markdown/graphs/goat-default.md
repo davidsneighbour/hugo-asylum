@@ -1,7 +1,7 @@
 ---
 title: "Goat Default"
 date: 2022-03-09T21:20:45+07:00
-draft: true
+
 ---
 
 ```goat

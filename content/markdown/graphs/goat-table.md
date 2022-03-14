@@ -1,7 +1,7 @@
 ---
 title: "Goat Table"
 date: 2022-03-09T21:26:34+07:00
-draft: true
+
 ---
 
 ```goat { class="w-80 dark-blue" }

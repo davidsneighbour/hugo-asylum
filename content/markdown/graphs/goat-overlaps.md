@@ -1,7 +1,7 @@
 ---
 title: "Goat Overlaps"
 date: 2022-03-09T21:28:00+07:00
-draft: true
+
 ---
 
 ```goat
