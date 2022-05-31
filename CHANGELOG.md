@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2022.0.4](https://github.com/davidsneighbour/hugo-asylum/compare/2022.0.3...2022.0.4) (2022-05-31)
+
+
+### Build System
+
+* update Github organization name & use newer dependencies ([#211](https://github.com/davidsneighbour/hugo-asylum/issues/211)) ([db2814c](https://github.com/davidsneighbour/hugo-asylum/commit/db2814c870a47f9748320254c4415bf1693bf003))
+
 ### [2022.0.3](https://github.com/davidsneighbour/hugo-asylum/compare/1.0.24...2022.0.3) (2022-04-06)
 
 
