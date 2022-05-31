@@ -5,4 +5,4 @@ summaryLength = 70
 
 [module]
 [[module.imports]]
-path = "github.com/dnb-org/dnb-hugo-head"
+path = "github.com/davidsneighbour/hugo-head"
