@@ -10,7 +10,7 @@
     "url": "https://github.com/davidsneighbour/hugo-asylum/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/bootstrap-config": "^4.0.1",
+    "@davidsneighbour/bootstrap-config": "^4.0.8",
     "@davidsneighbour/browserslist-config": "^4.0.1",
     "@davidsneighbour/cssnano-config": "^4.0.1",
     "@davidsneighbour/cypress-config": "^4.0.1",
