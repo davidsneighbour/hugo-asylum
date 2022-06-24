@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@davidsneighbour/bootstrap-config": "^4.0.1",
-    "@davidsneighbour/browserslist-config": "^4.0.1",
+    "@davidsneighbour/browserslist-config": "^4.0.12",
     "@davidsneighbour/cssnano-config": "^4.0.1",
     "@davidsneighbour/cypress-config": "^4.0.1",
     "@davidsneighbour/eslint-config": "^4.0.1",
