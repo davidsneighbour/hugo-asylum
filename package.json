@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "2022.0.4",
+  "version": "2022.0.5",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "browserslist": [
     "extends @davidsneighbour/browserslist-config"
