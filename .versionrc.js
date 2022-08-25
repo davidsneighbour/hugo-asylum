@@ -5,9 +5,9 @@ const localStandardVersion = {
     ...defaultStandardVersion.bumpFiles,
     { filename: "data/dnb/asylum/build.json", type: "json" },
   ],
-  skip: [
-    "changelog"
-  ]
+  skip: {
+    changelog: true
+  }
 };
 
 module.exports = {
