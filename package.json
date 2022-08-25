@@ -2,22 +2,18 @@
   "name": "@davidsneighbour/hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
   "version": "2022.0.5",
+  "license": "MIT",
+  "repository": "davidsneighbour/hugo-asylum.git",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "browserslist": [
-    "extends @davidsneighbour/browserslist-config"
-  ],
   "bugs": {
     "url": "https://github.com/davidsneighbour/hugo-asylum/issues"
   },
+  "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
     "@davidsneighbour/browserslist-config": "^4.0.15",
     "@davidsneighbour/config": "^1.0.19",
     "@davidsneighbour/eslint-config": "^4.1.7"
   },
-  "homepage": "https://github.com/davidsneighbour/hugo-asylum",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "davidsneighbour/hugo-asylum.git",
   "scripts": {
     "build": "run-s build:critical && build:hugo",
     "build:critical": "./bin/build-critical-css.sh",
@@ -48,5 +44,9 @@
     "test:cypress": "cypress open",
     "test:server": "hugo server --port=8888 --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
     "update": "npm-check-updates -u && npm install"
-  }
+  },
+  "main": "index.js",
+  "browserslist": [
+    "extends @davidsneighbour/browserslist-config"
+  ]
 }
