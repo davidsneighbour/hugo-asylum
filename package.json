@@ -11,8 +11,8 @@
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
     "@davidsneighbour/browserslist-config": "^4.0.15",
-    "@davidsneighbour/config": "^1.0.19",
-    "@davidsneighbour/eslint-config": "^4.1.7"
+    "@davidsneighbour/config": "^5.0.1",
+    "@davidsneighbour/eslint-config": "^5.0.14"
   },
   "scripts": {
     "build": "run-s build:critical && build:hugo",
