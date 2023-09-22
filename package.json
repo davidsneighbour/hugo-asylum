@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
-    "@davidsneighbour/configurations": "^5.2.39"
+    "@davidsneighbour/configurations": "^5.2.41"
   },
   "scripts": {
     "build": "run-s build:critical && build:hugo",
