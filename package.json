@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "2022.0.6",
+  "version": "2024.0.1",
   "license": "MIT",
   "repository": "davidsneighbour/hugo-asylum.git",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
