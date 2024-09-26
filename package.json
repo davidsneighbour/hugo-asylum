@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "2022.0.5",
+  "version": "2022.0.6",
   "license": "MIT",
   "repository": "davidsneighbour/hugo-asylum.git",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
@@ -14,33 +14,7 @@
     "@davidsneighbour/release-config": "2024.3.46"
   },
   "scripts": {
-    "build": "run-s build:critical && build:hugo",
-    "build:critical": "./bin/build-critical-css.sh",
-    "build:highlights": "hugo gen chromastyles --style=monokailight > assets/scss/plugins/_highlight.scss",
-    "clean": "npm-run-all -p clean:*",
-    "clean:cypress": "rimraf tests/cypress/screenshots tests/cypress/videos",
-    "clean:hugo": "rimraf hugo.log hugo_stats.json resources",
-    "clean:npm": "rimraf node_modules package-lock.json",
-    "cypress:open": "run-p cypress:open hugo:serve2",
-    "hugo:build": "hugo --gc --minify",
-    "hugo:serve": "hugo server --bind 192.168.1.201 --baseURL http://192.168.1.201 --disableFastRender --printI18nWarnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --printPathWarnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
-    "hugo:serve2": "hugo server --port=8888 --disableFastRender --printI18nWarnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --printPathWarnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
-    "lint:fix": "run-p lint:scss:fix lint:textlint:fix",
-    "lint:package": "fixpack",
-    "lint:remark": "remark",
-    "lint:scss": "stylelint assets/scss/",
-    "lint:scss2": "stylelint",
-    "lint:scss:fix": "stylelint assets/scss/ --fix",
-    "lint:textlint": "textlint --config @davidsneighbour/config/textlint .",
-    "lint:textlint2": "textlint --config @davidsneighbour/config/textlint",
-    "lint:textlint2:fix": "textlint --config @davidsneighbour/config/textlint --fix",
-    "lint:textlint:fix": "textlint --config @davidsneighbour/config/textlint --fix .",
-    "release": "commit-and-tag-version --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" -- --no-verify && ./bin/repo/release/postrelease",
-    "server": "bin/hugo-dev-server.sh",
-    "test": "run-p test:server test:cypress",
-    "test:cypress": "cypress open",
-    "test:server": "hugo server --port=8888 --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log -v",
-    "update": "npm-check-updates -u && npm install"
+    "release": "commit-and-tag-version --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" -- --no-verify && ./bin/repo/release/postrelease"
   },
   "main": "index.js",
   "browserslist": [
