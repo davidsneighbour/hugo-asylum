@@ -1,13 +1,13 @@
-const defaultStandardVersion = require("@davidsneighbour/config/standard-version");
+const defaultStandardVersion = require('@davidsneighbour/release-config');
 
 const localStandardVersion = {
   bumpFiles: [
     ...defaultStandardVersion.bumpFiles,
-    { filename: "data/dnb/asylum/build.json", type: "json" },
+    { filename: 'data/dnb/asylum/build.json', type: 'json' },
   ],
   skip: {
-    changelog: true
-  }
+    changelog: true,
+  },
 };
 
 module.exports = {
