@@ -10,8 +10,8 @@
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
-    "@davidsneighbour/tools": "2024.3.46",
-    "@davidsneighbour/release-config": "2024.3.46"
+    "@davidsneighbour/release-config": "2024.3.46",
+    "@davidsneighbour/tools": "2024.3.46"
   },
   "scripts": {
     "release": "commit-and-tag-version --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" -- --no-verify && ./bin/repo/release/postrelease"
@@ -19,5 +19,8 @@
   "main": "index.js",
   "browserslist": [
     "extends @davidsneighbour/browserslist-config"
-  ]
+  ],
+  "dependencies": {
+    "@davidsneighbour/postcss-config": "^2024.3.46"
+  }
 }
