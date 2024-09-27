@@ -5,7 +5,7 @@
 	</head>
 	<body class="type--{{ .Type -}}
               {{- if .IsPage }} page--single{{ else }} page--list{{ end -}}"
-        id="page-{{- .File.UniqueID -}}">
+        id="page-{{ with .File }}{{ .UniqueID }}{{ end }}">
 		<main>
       {{- block "main" . -}}{{- end -}}
     </main>
