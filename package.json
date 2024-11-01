@@ -21,6 +21,6 @@
     "extends @davidsneighbour/browserslist-config"
   ],
   "dependencies": {
-    "@davidsneighbour/postcss-config": "^2024.4.6"
+    "@davidsneighbour/postcss-config": "^2024.4.7"
   }
 }
