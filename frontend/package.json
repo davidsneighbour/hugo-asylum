@@ -1,0 +1,14 @@
+{
+  "name": "hugodash-frontend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "serve": "serve public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "serve": "^14.0.1"
+  }
+}
