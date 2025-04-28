@@ -10,7 +10,8 @@
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
-    "@davidsneighbour/browserslist-config": "^2025.1.1",
+    "@davidsneighbour/browserslist-config": "2025.1.1",
+    "@davidsneighbour/postcss-config": "2025.1.1",
     "@davidsneighbour/release-config": "2025.1.1",
     "@davidsneighbour/tools": "2025.1.1"
   },
@@ -20,8 +21,5 @@
   "main": "index.js",
   "browserslist": [
     "extends @davidsneighbour/browserslist-config"
-  ],
-  "dependencies": {
-    "@davidsneighbour/postcss-config": "^2025.1.1"
-  }
+  ]
 }
