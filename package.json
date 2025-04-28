@@ -10,6 +10,7 @@
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
+    "@davidsneighbour/browserslist-config": "^2025.1.1",
     "@davidsneighbour/release-config": "2025.1.1",
     "@davidsneighbour/tools": "2025.1.1"
   },
