@@ -1,26 +1,20 @@
 {
   "name": "@davidsneighbour/hugo-asylum",
   "description": "Test cases, issue recreation and bug hunting for Hugo",
-  "version": "2024.0.1",
+  "version": "2999.0.0",
   "license": "MIT",
   "repository": "davidsneighbour/hugo-asylum.git",
-  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/hugo-asylum/issues"
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
-    "@davidsneighbour/release-config": "2025.1.1",
-    "@davidsneighbour/tools": "2025.1.1"
+    "@davidsneighbour/release-config": "2025.3.9",
+    "@tailwindcss/cli": "4.1.18",
+    "tailwindcss": "4.1.18"
   },
   "scripts": {
     "release": "commit-and-tag-version --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" -- --no-verify && ./bin/repo/release/postrelease"
-  },
-  "main": "index.js",
-  "browserslist": [
-    "extends @davidsneighbour/browserslist-config"
-  ],
-  "dependencies": {
-    "@davidsneighbour/postcss-config": "^2025.1.1"
   }
 }

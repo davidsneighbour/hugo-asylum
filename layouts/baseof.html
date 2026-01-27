@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{- site.LanguageCode -}}">
 	<head>
-    {{- partial "head.html" . -}}
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ partial "styles.html" . }}
+    {{ end }}
 	</head>
 	<body class="type--{{ .Type -}}
-              {{- if .IsPage }} page--single{{ else }} page--list{{ end -}}"
+              {{- if .IsPage }} page--single{{ else }} page--list{{ end }} bg-stone-900 text-stone-100"
         id="page-{{ with .File }}{{ .UniqueID }}{{ end }}">
 		<main>
       {{- block "main" . -}}{{- end -}}

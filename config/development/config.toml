@@ -1,6 +1,0 @@
-languageCode = "en-us"
-title = "Hugo Asylum"
-baseURL = "http://192.168.1.201:1313"
-summaryLength = 70
-
-enableRobotsTXT = true
