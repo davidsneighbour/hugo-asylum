@@ -1,9 +1,5 @@
-<!--- CARD BEGIN --->
-
 ![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
 ![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
-
-<!--- CARD END --->
 
 # DNB GoHugo Component / Asylum
 
@@ -16,9 +12,7 @@ To be written ...
 ## Publishing
 
 - Setup signed tags with `npm config set sign-git-tag true`
-- Create patch release with `npm run release`
-- Create minor release with `npm run release:minor`
-- Create major release with `npm run release:major`
+- Create release with `npm run release`
 
 ## Local Development Environment
 
@@ -54,9 +48,6 @@ Add a file named `.env` to the root of your repository containing your local set
 ```ini
 IP=192.168.1.201
 PORT=1313
-ALGOLIA_APP_ID=
-ALGOLIA_API_KEY=
-ALGOLIA_INDEX_NAME=
 ```
 
 Do NOT commit this file to the repository.
@@ -84,17 +75,3 @@ npm run server
 - `howto/$howto-name` - branches that explain one single thing
 - `content` - branch for collecting content samples to cherry-pick between branches
 - `templates/$template-name` - branches with repos set up for certain site types
-
-### Binaries
-
-**Configuration**: Check out the file `dotfiles/.releases.dist`. In it you find version numbers of hugo that will be
-downloaded. To download different versions, then copy the file to `dotfiles/.releases` and edit to your needs.
-
-**Download**: Run `./bin/gethugo.sh`, answer which versions (standard, extended or both) you want to download and lean
-back. It will take a while if you have many versions to download. The downloaded binaries will be saved inside the
-`bin/hugo` directory.
-
-**ToDo**:
-
-- Create a script that links the preferred hugo binary to hugo
-- Create a script that runs through a list of versions and executes commands for each of these version.
