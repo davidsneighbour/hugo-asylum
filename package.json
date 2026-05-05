@@ -10,9 +10,9 @@
   },
   "homepage": "https://github.com/davidsneighbour/hugo-asylum",
   "devDependencies": {
-    "@davidsneighbour/release-config": "2025.3.9",
-    "@tailwindcss/cli": "4.1.18",
-    "tailwindcss": "4.1.18"
+    "@davidsneighbour/release-config": "2026.0.5",
+    "@tailwindcss/cli": "4.2.4",
+    "tailwindcss": "4.2.4"
   },
   "scripts": {
     "release": "commit-and-tag-version --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" -- --no-verify && ./bin/repo/release/postrelease"
