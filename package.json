@@ -13,7 +13,7 @@
     "@davidsneighbour/release-config": "2026.0.5",
     "@release-it/conventional-changelog": "11.0.0",
     "@tailwindcss/cli": "4.2.4",
-    "release-it": "20.0.1",
+    "release-it": "20.2.0",
     "tailwindcss": "4.2.4"
   },
   "scripts": {
